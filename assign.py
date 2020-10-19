@@ -6,3 +6,4 @@ response = urllib.request.urlopen(url)
 tree = ET.fromstring(response.read())
 total = sum([int(count.text) for count in tree.findall('comments/comment/count')])
 print(total)
+
