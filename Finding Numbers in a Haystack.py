@@ -9,3 +9,4 @@ sum=0
 for z in x:
     sum = sum + int(z)
 print(sum)
+
